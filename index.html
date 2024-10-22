@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto: Página Web de Viajes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #007BFF;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Viaja a ...</h1> <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/aqualine-tree.png"> <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/aqualine-seed.png">
+        <nav>
+            <a href="#destinos">Destinos</a>
+            <a href="#guias">Guías de Viaje</a>
+            <a href="#blog">Blog</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="destinos">
+            <h2>Destinos Populares</h2>
+            <p>Descubre los destinos más emocionantes para tus próximas vacaciones.</p>
+            <!-- Aquí puedes agregar imágenes y descripciones de destinos -->
+        </section>
+
+        <section id="guias">
+            <h2>Guías de Viaje</h2>
+            <p>Consejos útiles y itinerarios sugeridos para hacer de tu viaje una experiencia inolvidable.</p> <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/duskpin-seed.png">
+            <!-- Agrega enlaces a guías específicas -->
+        </section>
+
+        <section id="blog">
+            <h2>Blog de Viajes</h2>
+            <p>Lee sobre mis aventuras y consejos de viaje.</p>
+            <!-- Resúmenes de las últimas entradas del blog -->
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme para consultas o más información.</p>
+            <form>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tu Nombre | Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
